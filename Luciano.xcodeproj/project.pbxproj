@@ -27,6 +27,7 @@
 		19624A14285DA1CA00F7BD9E /* NewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19624A13285DA1CA00F7BD9E /* NewModel.swift */; };
 		19624A17285DA3C300F7BD9E /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19624A16285DA3C300F7BD9E /* SecondView.swift */; };
 		19624A30285DB4A900F7BD9E /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 19624A2F285DB4A900F7BD9E /* hikeData.json */; };
+		19A89B0F2862EECA006774C5 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A89B0E2862EECA006774C5 /* SheetView.swift */; };
 		19FFF8502861AB640023F6E8 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FFF84F2861AB640023F6E8 /* ModelData.swift */; };
 		19FFF8522861ABB50023F6E8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FFF8512861ABB50023F6E8 /* CardView.swift */; };
 		19FFF8542861AC030023F6E8 /* Benefit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FFF8532861AC030023F6E8 /* Benefit.swift */; };
@@ -55,6 +56,7 @@
 		19624A13285DA1CA00F7BD9E /* NewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewModel.swift; sourceTree = "<group>"; };
 		19624A16285DA3C300F7BD9E /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		19624A2F285DB4A900F7BD9E /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
+		19A89B0E2862EECA006774C5 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
 		19FFF84F2861AB640023F6E8 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		19FFF8512861ABB50023F6E8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		19FFF8532861AC030023F6E8 /* Benefit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benefit.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 				19FFF84F2861AB640023F6E8 /* ModelData.swift */,
 				19FFF8512861ABB50023F6E8 /* CardView.swift */,
 				19FFF8532861AC030023F6E8 /* Benefit.swift */,
+				19A89B0E2862EECA006774C5 /* SheetView.swift */,
 			);
 			path = HZ;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				19FFF8582861AE320023F6E8 /* Video.swift in Sources */,
 				19624A00285D855000F7BD9E /* ViewModel.swift in Sources */,
 				196249EF285D84A700F7BD9E /* LucianoApp.swift in Sources */,
+				19A89B0F2862EECA006774C5 /* SheetView.swift in Sources */,
 				19FFF8522861ABB50023F6E8 /* CardView.swift in Sources */,
 				19624A08285D89D100F7BD9E /* HomeItem.swift in Sources */,
 			);

@@ -8,18 +8,22 @@
 import SwiftUI
 
 struct Benefit: View {
+    var card: Card
+    @State private var showingSheet = false
     var body: some View {
         NavigationView {
             ScrollView(.vertical, showsIndicators: false) {
-                
                 VStack(alignment: .leading, spacing: 0) {
                     Text("Todos los afiliados podrán disfrutar de los siguientes beneficios")
                         .font(.title2)
+                        .foregroundColor(.primary)
                         .padding(.horizontal,20)
                     SVideoPlayer()
+                        .shadow(color: Color.black.opacity(0.3), radius: 20, x: 0, y: 10)
                         .padding()
                     
-                    
+                    Divider().frame(width: 350)
+                        .padding()
                     Text("Beneficio de vigencia anual (temporada baja o alta): este incluye el Beneficio del 10% para Retirados, Jubilados y Pensionados, como también por Viaje de Bodas")
                         .font(.subheadline)
                         .padding(.horizontal,20)
@@ -27,12 +31,27 @@ struct Benefit: View {
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack() {
                             ForEach(cards) { index in
-                                CardView(card: index)
+                                Button(action: {
+                                    showingSheet.toggle()
+                                    
+                                },
+                                       label: {
+                                    CardView(card: index)
+                                })
+                                
                             }
                         }
+                        .sheet(isPresented: $showingSheet) {
+                            SheetView(card: card, isPresented: $showingSheet)
+                        }
+                       
+                    
+                    
+                        
                         .padding()
                     }
-                    
+                    Divider().frame(width: 350)
+                        .padding()
                     
                     Text("Beneficio vigente desde 19 de abril de 2022 (temporada baja): este incluye beneficio por 25 o 30 años de servicio, por cumpleaños de 65 años de edad y aniversario de casados.")
                         .font(.subheadline)
@@ -57,6 +76,7 @@ struct Benefit: View {
                             .resizable()
                             .scaledToFit()
                             .frame(width: 90, height: 30, alignment: .center)
+                        
                     }
                 }
             }
@@ -66,6 +86,6 @@ struct Benefit: View {
 
 struct Benefit_Previews: PreviewProvider {
     static var previews: some View {
-        Benefit()
+        Benefit(card: cards[0])
     }
 }

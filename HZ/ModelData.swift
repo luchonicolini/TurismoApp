@@ -14,12 +14,14 @@ struct Card: Identifiable {
     
 }
 
+//1
 var cards: [Card] = [
     Card(name: "name", image: "im_Turismo1"),
     Card(name: "name", image: "im_Turismo3")
 
 ]
 
+//2
 var cardss: [Card] = [
     Card(name: "name", image: "im_beneficio2"),
     Card(name: "name", image: "im_Turismo4"),

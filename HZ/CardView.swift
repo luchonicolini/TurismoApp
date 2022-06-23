@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CardView: View {
     var card: Card
-  
+    
     var body: some View {
         VStack(alignment: .leading) {
         Image(card.image)
