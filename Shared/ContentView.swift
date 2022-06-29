@@ -23,7 +23,7 @@ struct ContentView: View {
                    }
                    .tag(Tab.featured)
 
-              HomeView()
+             Benefit()
                    .tabItem {
                        Label("List", systemImage: "list.bullet")
                    }

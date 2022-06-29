@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct Benefit: View {
-    var card: Card
-    @State private var showingSheet = false
+    //@State private var showingSheet = false
+    
     var body: some View {
         NavigationView {
             ScrollView(.vertical, showsIndicators: false) {
@@ -31,23 +31,13 @@ struct Benefit: View {
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack() {
                             ForEach(cards) { index in
-                                Button(action: {
-                                    showingSheet.toggle()
-                                    
-                                },
-                                       label: {
+                                NavigationLink(destination: SheetView(card: index)) {
                                     CardView(card: index)
-                                })
-                                
+                                    
+                                }
                             }
                         }
-                        .sheet(isPresented: $showingSheet) {
-                            SheetView(card: card, isPresented: $showingSheet)
-                        }
-                       
-                    
-                    
-                        
+                        //
                         .padding()
                     }
                     Divider().frame(width: 350)
@@ -60,7 +50,10 @@ struct Benefit: View {
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack() {
                             ForEach(cardss) { index in
-                                CardView(card: index)
+                                NavigationLink(destination: ViewTwo(card: index)) {
+                                    CardView(card: index)
+                                    
+                                }
                             }
                         }
                         .padding()
@@ -86,6 +79,6 @@ struct Benefit: View {
 
 struct Benefit_Previews: PreviewProvider {
     static var previews: some View {
-        Benefit(card: cards[0])
+        Benefit()
     }
 }

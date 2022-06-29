@@ -17,6 +17,7 @@ struct SecondView: View {
                         withAnimation {
                             NavigationLink(destination: SecondDetail()) {
                                 SecondItem(info: info)
+                                
                             }
                         }
                     }

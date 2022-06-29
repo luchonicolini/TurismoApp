@@ -10,9 +10,7 @@ import SwiftUI
 struct DetailHome: View {
     @EnvironmentObject var modelData: ModelData
     var landmark: Landmark
-    
-    
-    
+  
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
             GeometryReader { reader in
@@ -37,8 +35,6 @@ struct DetailHome: View {
                 }
                 .font(.subheadline)
                 .foregroundColor(.secondary)
-
-        
                 
                 Divider()
                 
@@ -70,33 +66,23 @@ struct DetailHome: View {
                     Text(landmark.description)
                         .fontWeight(.light)
                     
+                    //map
+                    Text("Ubicacion")
+                        .font(.system(size: 23, weight: .medium, design: .rounded))
+                        .foregroundColor(.primary)
+                        .padding(.top, 10)
+                 
+                    MapView(coordinate: landmark.locationCoordinate)
+                        .ignoresSafeArea(edges: .top)
+                        .frame(width: 370, height: 300)
+                        .cornerRadius(5)
+                
                 }
             }
-            .padding(.top, 25)
-            .padding(.horizontal)
-            .background(Color.white)
-            .cornerRadius(20)
-            .offset(y: -38)
+            .padding()
+            //.offset(y: -25)
             
-    
-            
-
-            //map
-            VStack(alignment: .leading) {
-                Text("Ubicacion")
-                    .font(.system(size: 23, weight: .medium, design: .rounded))
-                    .foregroundColor(.primary)
-                    
-                MapView(coordinate: landmark.locationCoordinate)
-                    .ignoresSafeArea(edges: .top)
-                    .frame(width: 360, height: 300)
-                    .cornerRadius(5)
-            }
-            .padding(.horizontal,18)
-            .offset(y: -25)
-        
         }
-        .background(Color.white)
         .navigationBarTitleDisplayMode(.inline)
     }
 }

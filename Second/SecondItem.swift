@@ -28,6 +28,8 @@ struct SecondItem: View {
                 Text(info.city)
                     .font(.subheadline)
                     .foregroundColor(.secondary)
+                
+                    
                     
             }
             .offset(y: -28)

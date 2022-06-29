@@ -13,7 +13,6 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
                ScrollView {
-                   
                    VStack(alignment: .leading,spacing: 0) {
                        Text("Nuestros Alojamientos".uppercased())
                            .sectionTitleModifier()
