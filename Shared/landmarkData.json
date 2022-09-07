@@ -1,0 +1,241 @@
+[
+    {
+        "name": "Hotel Antartida",
+        "subtitule": "Av. Luro 2156",
+        "website": "https://turismo.iosfa.gob.ar/Port_antartida.php",
+        "phone": "Te. (0223) 491-5450/54",
+        "category": "Mar del Plata",
+        "city": "Mar del Plata, Buenos Aires.",
+        "id": 1001,
+        "isFeatured": true,
+        "isFavorite": true,
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "hobbies": ["bicycle", "ticket.fill", "book.fill"],
+        "description": "Con más de 60 años de trayectoria el Hotel Antartida es uno de los hoteles tradicionales de la ciudad, ubicado en un lugar privilegiado frente al mar, en pleno corazón de la ciudad, a escasos metros de la peatonal San Martín y a 200 mts Del casino. Cuenta con habitaciones singles, dobles y triples completamente equipadas, departamentos para 4 y 5 personas, confitería, restaurant y cochera propia",
+        "imageName": "mr"
+    },
+    {
+        "name": "HOTEL CÓNDOR",
+        "subtitule": "Martín Miguel de Güemes 2807",
+        "website": "https://turismo.iosfa.gob.ar/Port_Condor.php",
+        "phone": "Te. (0223) 451 0037",
+        "category": "Mar del Plata",
+        "city": "Mar del Plata, Buenos Aires.",
+        "id": 1002,
+        "isFeatured": true,
+        "isFavorite": true,
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "description": "",
+        "imageName": "mr2"
+    },
+    {
+        "name": "HOTEL METROPOL",
+        "subtitule": "Moreno 2470",
+        "website": "https://www.hackingwithswift.com/quick-start/swiftui/how-to-open-web-links-in-safari",
+        "phone": "Te. (0223) 495 0050",
+        "category": "Mar del Plata",
+        "city": "Mar del Plata, Buenos Aires.",
+        "id": 1003,
+        "isFeatured": true,
+        "isFavorite": true,
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "description": "",
+        "imageName": "mr3"
+    },
+    {
+        "name": "HOTEL TIERRA DEL FUEGO",
+        "subtitule": "Entre Ríos 1525",
+        "website": "https://turismo.iosfa.gob.ar/Port_antartida.php",
+        "phone": "Te. (0223) 491 5667",
+        "category": "Mar del Plata",
+        "city": "Mar del Plata, Buenos Aires.",
+        "id": 1004,
+        "isFeatured": true,
+        "isFavorite": true,
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "description": "El Hotel Tierra del Fuego cuenta con una ubicación privilegiada en pleno centro de la ciudad, a escasos metros de la peatonal, frente a espacios verdes y con una cautivante vista al mar. En sus instalaciones posee cuartos dobles, triples y departamentos Para 4 y 5 personas, ademas de servicio de confitería y restaurant.",
+        "imageName": "mr4"
+    },
+    {
+        "name": "HOTEL ISLAS MALVINAS",
+        "subtitule": "Av. San Martín Nº 698",
+        "website": "https://turismo.iosfa.gob.ar/Port_antartida.php",
+        "phone": "Te. (0294) 442 2923",
+        "category": "Bariloche",
+        "city": "Bariloche, Río Negro",
+        "id": 1005,
+        "isFeatured": true,
+        "isFavorite": true,
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "description": "",
+        "imageName": "bar"
+    },
+    {
+        "name": "CABAÑAS ISLAS MALVINAS",
+        "subtitule": "Av. Bustillo Km 15",
+        "website": "https://turismo.iosfa.gob.ar/Port_antartida.php",
+        "phone": "Te. 0294-4422923/ 4433619",
+        "category": "Bariloche",
+        "city": "Bariloche, Río Negro",
+        "id": 1006,
+        "isFeatured": true,
+        "isFavorite": true,
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "description": "Ubicado camino al Llao-Llao, a escasos 15 Km del centro cívico de Bariloche y junto al lago Nahuel Huapi. El complejo de cabañas Islas Malvinas ofrece cabañas de 2 y 3 plazas completamente equipadas, combinando tranquilidad y armonía de la naturaleza, con la comodidad del fácil acceso a la ciudad.",
+        "imageName": "bar2"
+    },
+    {
+        "name": "HOTEL USHUAIA",
+        "subtitule": "Av. Córdoba 350",
+        "website": "https://turismo.iosfa.gob.ar/Port_Ushuaia.php",
+        "phone": "Te. (011) 4312 4811",
+        "category": "Buenos Aires",
+        "city": "Buenos Aires",
+        "id": 1007,
+        "isFeatured": true,
+        "isFavorite": true,
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "description": "El Hotel Ushuaia se encuentra en el centro financiero de la ciudad,cerca del tradicional centro comercial de la calle florida y a escasos metros la avenida Corrientes, arteria principal del paseo cultural que integran los teatros, locales gastronómicos y librerías de la zona.",
+        "imageName": "bs"
+    },
+    {
+        "name": "ESTANCIA GOLF ASCOCHINGA",
+        "subtitule": "E 53 Dista 60 Km al norte de Córdoba Ciudad",
+        "website": "https://turismo.iosfa.gob.ar/Port_antartida.php",
+        "phone": "Tel: (03525) 492092 / 492017",
+        "category": "Sierras de Cordoba",
+        "city": "Sierras de Cordoba / Sierras Chicas",
+        "id": 1008,
+        "isFeatured": true,
+        "isFavorite": true,
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "description": "",
+        "imageName": "sierra1"
+    },
+    {
+        "name": "COLONIA COSTANERA COSQUÍN",
+        "subtitule": "E 53 Dista 60 Km al norte de Córdoba Ciudad",
+        "website": "https://turismo.iosfa.gob.ar/Port_antartida.php",
+        "phone": "Tel: (03525) 492092 / 492017",
+        "category": "Sierras de Cordoba",
+        "city": "Sierras de Cordoba / Sierras Chicas",
+        "id": 1009,
+        "isFeatured": true,
+        "isFavorite": true,
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "description": "",
+        "imageName": "sierra2"
+    },
+    {
+        "name": "COLONIA MIRAFLORES",
+        "subtitule": "Acceso Ruta Prov. Nº 5 Camino a Yacanto de Calamuchita",
+        "website": "https://turismo.iosfa.gob.ar/Port_antartida.php",
+        "phone": "Te: (03546) 49 9607",
+        "category": "Sierras de Cordoba",
+        "city": "Sierras de Cordoba / Sierras Chicas",
+        "id": 1010,
+        "isFeatured": true,
+        "isFavorite": true,
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "description": "la Colonia Miraflores se compone de 15 hectáreas de espacios verdes enmarcados por los bellos paisajes del Valle de Calamuchita. Sus instalaciones cuentan con bungalows para 6 personas y cabañas para 7 completamente equipadas, balneario privado a orillas del rio, pileta, bar, restaurant y proveeduría.",
+        "imageName": "sierra3"
+    },
+    {
+        "name": "PARADOR ALMIRANTE BROWN",
+        "subtitule": "Ruta Provincial 5, Km 106,5",
+        "website": "https://turismo.iosfa.gob.ar/Port_antartida.php",
+        "phone": "Te. (03546) 497062",
+        "category": "Sierras de Cordoba",
+        "city": "Villa del Dique, Córdoba",
+        "id": 1011,
+        "isFeatured": true,
+        "isFavorite": true,
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "description": "El parador Alte. Brown se encuentra ubicado en la zona serrana del Valle de Calamuchita, frente al espejo de agua del Embalse Río Tercero en el cual posee 3 Km de costa privada, que suma a sus 52 hectáreas de espacios verdes",
+        "imageName": "sierra4"
+    },
+    {
+        "name": "HOSTERÍA VILLA GENERAL BELGRANO",
+        "subtitule": "Ruta Provincial 109",
+        "website": "https://turismo.iosfa.gob.ar/Port_antartida.php",
+        "phone": "Te. (03546) 46 1272",
+        "category": "Sierras de Cordoba",
+        "city": "Valle de Calamuchita",
+        "id": 1012,
+        "isFeatured": true,
+        "isFavorite": true,
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "description": "ubicado en el Valle de Calamuchita y rodeada por un imponente paisaje de sierras y bosques frondosos, la Hosteria Villa General Belgrano posee un balneario exclusivo en la costa sur del río Los Reartes Y cuenta en sus instalaciones con bar y asadores propios a disposición de los huéspedes.",
+        "imageName": "sierra5"
+    },
+    {
+        "name": "RESIDENCIA COSQUIN",
+        "subtitule": "Avenida Capitán Omar J. Castillo S/N°",
+        "website": "https://turismo.iosfa.gob.ar/Port_antartida.php",
+        "phone": "Tel.: (03541) 45-1433",
+        "category": "Sierras de Cordoba",
+        "city": "Valle de Calamuchita",
+        "id": 1013,
+        "isFeatured": true,
+        "isFavorite": true,
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "description": "Ubicado al pie del Camino del Cuadrado, principal ruta de acceso entre el área de Sierras Chicas y el Valle de Punilla, fuente de atractivas vistas panorámicas y bellisimos paisajes.La Residencia Serrana La Falda posee una oferta tanto de habitaciones como departamentos y cuenta en sus instalaciones con 5 hectáreas de bosques, parques y jardines, además de pileta de natación, canchas de futbol, tenis, volley, paddle, comedor, confitería y quinchos con asadores.",
+        "imageName": "sierra6"
+    },
+    {
+        "name": "RESIDENCIA SERRANA LA FALDA",
+        "subtitule": "Avenida Ferrarini 1992",
+        "website": "https://turismo.iosfa.gob.ar/Port_antartida.php",
+        "phone": "Te. (03548) 42 2016 / 3350 / 6590",
+        "category": "Sierras de Cordoba",
+        "city": "La Falda, Córdoba",
+        "id": 1014,
+        "isFeatured": true,
+        "isFavorite": true,
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "description": "Ubicada en la base del cerro Pan de Azúcar la Residencia Cosquin cuenta con un encantador paisaje serrano ideal para realizar actividades de running, trekking y cabalgata.En sus instalaciones cuenta con departamentos independientes (pet friendly – apto mascotas) y habitaciones equipadas para recibir personas con movilidad reducida. Amplio parque y una confitería donde se elaboran una gran variedad de platos que conjugan cocina tradicional y especialidades típicas de la zona. Las habitaciones cuentan con frigobar, aire acondicionado frío/calor, secador de cabello, caja de seguridad, lcd.",
+        "imageName": "sierra7"
+    }
+]
