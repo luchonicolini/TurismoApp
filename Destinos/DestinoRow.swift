@@ -13,26 +13,27 @@ struct DestinoRow: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            Text(categoryName)
-                           .font(.headline)
-                           .padding(.leading, 15)
-                           .padding(.top, 5)
+            Text(self.categoryName.uppercased())
+                .font(.headline)
+                //.gradientForeground(colors: [.orange,.red])
+                .padding(.leading, 15)
+                .padding(.top, 5)
             
             
             
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .top, spacing: 0) {
-                    ForEach(items) { landmark in
+                    ForEach(self.items) { landmark in
                         NavigationLink {
                             DestinoDetail(landmark: landmark)
                         } label: {
                             DestinoItem(landmark: landmark)
                         }
-                        //.padding(.top,10)
-                        .padding(.horizontal,-2)
+                        
                     }
                 }
             }
+            .frame(height: 185)
         }
     }
 }
@@ -45,5 +46,13 @@ struct DestinoRow_Previews: PreviewProvider {
             categoryName: landmarks[0].category.rawValue,
             items: Array(landmarks.prefix(4))
         )
+    }
+}
+
+
+extension View {
+    public func gradientForeground(colors: [Color]) -> some View {
+        self.overlay(LinearGradient(gradient: .init(colors: colors), startPoint: .topLeading, endPoint: .bottomTrailing))
+            .mask(self)
     }
 }

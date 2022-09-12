@@ -9,6 +9,7 @@ import SwiftUI
 
 struct DestinoDetail: View {
     @EnvironmentObject var modelData: ModelData
+    @State private var isFormularioSheet = false
     var landmark: Landmark
     
     var body: some View {
@@ -18,14 +19,14 @@ struct DestinoDetail: View {
                 .edgesIgnoringSafeArea(.all)
             ScrollView(.vertical,showsIndicators: false) {
                 
-                //PARTE UNO
+                //IMG
                 GeometryReader { reader in
                     landmark.image
                         .renderingMode(.original)
                         .resizable()
                         .aspectRatio(3 / 2, contentMode: .fit)
                         .shadow(radius: 4)
-                        
+                    
                 }
                 .frame(height: 280)
                 
@@ -33,13 +34,13 @@ struct DestinoDetail: View {
                     Text(landmark.name)
                         .font(.title)
                         .fontWeight(.medium)
-                        
+                    
                     
                     HStack {
                         Text(landmark.city)
                         Spacer()
                         Text(landmark.phone)
-                           
+                        
                     }
                     .font(.subheadline)
                     .foregroundColor(.secondary)
@@ -72,7 +73,8 @@ struct DestinoDetail: View {
                         .padding(.top, 0.1)
                     Text(landmark.description)
                         .foregroundColor(Color("Decoracion"))
-                   
+                    
+                    //BOTONES
                     
                     Link(destination: URL(string: landmark.website)!, label: {
                         Label("Tarifas", systemImage: "dollarsign.square.fill")
@@ -83,9 +85,28 @@ struct DestinoDetail: View {
                             .background(Color.orange)
                             .cornerRadius(6)
                     })
-
+                    
+                    Button(action: {
+                        isFormularioSheet.toggle()
+                    }, label: {
+                        Text("Formu")
+                    })
+                    .sheet(isPresented: $isFormularioSheet) {
+                        NavigationView {
+                            Formulario()
+                                .toolbar {
+                                    ToolbarItem(placement: .cancellationAction) {
+                                        Button("Cancel") {
+                                            isFormularioSheet = false
+                                        }
+                                    }
+                                }
+                        }
+                    }
+                    
+                    
                 }
-                .offset(x: 0, y: -30)
+                .offset(y: -5)
                 .padding()
             }
             
@@ -98,11 +119,12 @@ struct DestinoDetail: View {
 struct DestinoDetail_Previews: PreviewProvider {
     static let modelData = ModelData()
     static var previews: some View {
-        DestinoDetail(landmark: modelData.landmarks[0])
+        DestinoDetail(landmark: modelData.landmarks[6])
             .environmentObject(modelData)
             .previewInterfaceOrientation(.portraitUpsideDown)
     }
 }
+
 
 
 

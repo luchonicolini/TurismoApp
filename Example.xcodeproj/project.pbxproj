@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1954225F28CAFEEA007866E9 /* Formulario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1954225E28CAFEEA007866E9 /* Formulario.swift */; };
 		19817E2C28BAADC4007E2D15 /* Hoteleria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19817E2B28BAADC4007E2D15 /* Hoteleria.swift */; };
 		19817E2E28BAB473007E2D15 /* Temporada.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19817E2D28BAB473007E2D15 /* Temporada.swift */; };
 		19A1583328BC5BCA00894A56 /* Beneficio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A1583228BC5BCA00894A56 /* Beneficio.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1954225E28CAFEEA007866E9 /* Formulario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formulario.swift; sourceTree = "<group>"; };
 		19817E2B28BAADC4007E2D15 /* Hoteleria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hoteleria.swift; sourceTree = "<group>"; };
 		19817E2D28BAB473007E2D15 /* Temporada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temporada.swift; sourceTree = "<group>"; };
 		19A1583228BC5BCA00894A56 /* Beneficio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beneficio.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				19AF058128BD42DD009E9990 /* DestinoRow.swift */,
 				19AF058328BD42ED009E9990 /* DestinoItem.swift */,
 				19AF058528BD43E6009E9990 /* DestinoDetail.swift */,
+				1954225E28CAFEEA007866E9 /* Formulario.swift */,
 			);
 			path = Destinos;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				19A1583328BC5BCA00894A56 /* Beneficio.swift in Sources */,
 				19817E2E28BAB473007E2D15 /* Temporada.swift in Sources */,
 				19AF056C28BD13F1009E9990 /* HCard.swift in Sources */,
+				1954225F28CAFEEA007866E9 /* Formulario.swift in Sources */,
 				19AF058228BD42DD009E9990 /* DestinoRow.swift in Sources */,
 				19A1583528BC7CAC00894A56 /* Video.swift in Sources */,
 				19F326CC28B9FA8B007D0CC8 /* DateView.swift in Sources */,

@@ -15,17 +15,17 @@ struct DestinoItem: View {
             landmark.image
                 .renderingMode(.original)
                 .resizable()
-                .frame(width: 155, height: 155)
+                .frame(width: 285, height: 155)
                 .cornerRadius(15)
             
             VStack(alignment: .leading){
-                Text(landmark.name)
-                    .font(.title2)
+                Text(landmark.name.uppercased())
+                    .font(.headline)
                     .fontWeight(.medium)
                     .foregroundColor(Color("Decoracion"))
-                Text(landmark.city)
+                Text(landmark.subtitule)
                     .font(.caption)
-                    .foregroundColor(Color("Decoracion"))
+                    .foregroundColor(.secondary)
             }
         }
         .padding(.leading, 15)

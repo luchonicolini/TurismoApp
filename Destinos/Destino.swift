@@ -18,24 +18,22 @@ struct Destino: View {
                     VStack(spacing: 0) {
                         Image("logo").resizable().aspectRatio(contentMode: .fit).frame(width: 90).padding(.vertical, 11.0)
                         
-                        Divider().overlay(Color(.black)).frame(height: 1).opacity(0.4)
+                        Divider().overlay(Color("Decoracion")).frame(height: 1).opacity(0.4)
                         
-                        DateView(launcher: "Nuestos Destinos")
+                        DateView(launcher: "Nuestros destinos")
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .padding(.top, 20)
                             .padding(.horizontal, 20)
                         
-                        VStack {
+                        VStack(spacing: 16) {
                             ForEach(modelData.categories.keys.sorted(), id: \.self) { key in
                                 DestinoRow(categoryName: key, items: modelData.categories[key]!)
-                                
-                                Divider().overlay(Color(.black)).frame(width: 350).opacity(0.4)
                                     
+                                Divider().overlay(Color("Decoracion")).frame(width: 350).opacity(0.4)
+                                
                             }
                         }
-                        
-                        
-                        
+                        .padding(10)
                     }
                 }
             }
@@ -53,3 +51,8 @@ struct Destino_Previews: PreviewProvider {
             .environmentObject(ModelData())
     }
 }
+
+
+/*
+ LinearGradient(gradient: .init(colors: [.orange,.red]), startPoint: .top, endPoint: .bottom).edgesIgnoringSafeArea(.all)
+ */
